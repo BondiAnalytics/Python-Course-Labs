@@ -10,3 +10,12 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+integer = 10
+fl = float(integer)
+integer = int(fl)
+# floor_division =  / int #what is floor division?
+
+u1 = int(input("First input:", ))
+u2 = int(input("Second input: ", ))
+print(u1 * u2)

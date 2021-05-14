@@ -2,13 +2,11 @@
 
 Write the necessary code to display "Hello World!" 5 times.
 
-
 '''
 
-message = "hello world"
 
-count = 0
-for i in message:
+x = 0
+for i in range(5):
     x = x + 1
-    print("hello world"[0:x])
+    print("hello world")
 
