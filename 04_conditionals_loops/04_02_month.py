@@ -4,3 +4,11 @@ Take in a number from the user and print "January", "February", ...
 or other respectively. Use a "nested-if" statement.
 
 '''
+
+nmbr = int(input("Input a number: ", ))
+months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+if nmbr <= 11:
+    print(months[nmbr])
+else:
+    print("other")

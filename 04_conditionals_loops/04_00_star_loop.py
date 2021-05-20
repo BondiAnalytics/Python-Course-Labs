@@ -11,3 +11,10 @@ For example if n is 3, you print:
 '''
 
 n = 5
+
+c = 0
+a = []
+while c < n:
+    a.append("*")
+    print(a)
+    c += 1

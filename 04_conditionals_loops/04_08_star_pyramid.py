@@ -17,3 +17,14 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+n = int(input("Enter a number: ", ))
+
+c = 0
+a = ""
+while c < n:
+    a += '*'
+    print(a)
+    # a.append("*")
+    # atostr = "".join(map(str, a))
+    # print(atostr)
+    c += 1
