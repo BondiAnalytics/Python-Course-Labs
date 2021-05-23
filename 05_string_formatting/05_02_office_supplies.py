@@ -25,3 +25,16 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+for item in office:
+    #print(item)
+    last_name = item['full_name']
+    last_name_list = last_name.split()
+    #print(last_name_list)
+    favorite_item = item["item"]
+    #print(favorite_item)
+    Office_supply = "Office supply: "
+    LIST = (f"LASTNAME, {last_name_list[1]} {Office_supply : >25} {favorite_item} \n"
+            f"LONGERLASTNAME, {last_name} {Office_supply : >5} {favorite_item}")
+    print(LIST)
+    
