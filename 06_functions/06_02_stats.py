@@ -11,3 +11,10 @@ def stats():
   pass
 
 # call the function below here
+
+n = [1, 2, 3, 4, 5, 6, 7]
+
+def stats(n):
+  return max(n), min(n), sum(n)/len(n), sum(n)
+    
+print(stats(n))
