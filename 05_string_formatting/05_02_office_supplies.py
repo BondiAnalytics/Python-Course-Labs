@@ -38,3 +38,12 @@ for item in office:
             f"LONGERLASTNAME, {last_name} {Office_supply : >5} {favorite_item}")
     print(LIST)
     
+
+counter = 0
+
+for i in range(5):
+    string_counter = ""
+    for j in range(10):
+        string_counter += count() + " "
+        count += 1
+print(counter)
