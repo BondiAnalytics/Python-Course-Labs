@@ -23,3 +23,43 @@ BONUS CHALLENGE: write a custom Exception that inherits from Exception and raise
 first 100 characters of any of the files contain the string "Prince".
 
 '''
+
+with open("war_and_peace.txt", "r") as fin:
+    wnp = fin.read()
+print(wnp[0:100])
+
+with open("crime_and_punishment.txt", "r") as fin:
+    cnp = fin.read()
+for i in cnp:
+    i = ""
+
+try:
+    print(wnp[0])
+    print(cnp[0])
+    print(pnp[0])
+except NameError as error:
+    print("Book is not loaded")
+
+'''
+
+Need help on this one!!
+
+print("BONUS CHALLENGE")
+
+class princeerror(Exception):
+    def __init__(self, prince):
+        self.prince = prince
+
+
+
+try:
+    wnp_list = wnp.split()
+    cnp_list = cnp.split()
+    pnp_list = pnp.split()
+
+    prince = int(wnp[])
+    print(wnp)
+
+    print(cnp)
+    print(pnp)
+except

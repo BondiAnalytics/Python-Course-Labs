@@ -7,4 +7,13 @@ only if neither of them applies.
 
 '''
 
-file_name = 'integers.txt'
+try:
+    with open('integers.txt', "r") as fin:
+        file_name = fin.read()
+        file_name = file_name.rstrip()
+    # print(file_name)
+    fn_int = int(file_name[0])
+    calc = fn_int * 2500
+    print(calc)
+except ValueError as error:
+    print("lovin' these datatype rules!!")

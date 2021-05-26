@@ -8,3 +8,9 @@ the script should handle:
 Test it and make sure it does not crash when you enter incorrect values.
 
 '''
+try:
+    x, y = [int(x) for x in input("Enter two value: ").split()]
+    z = x / y
+    print(z)
+except ZeroDivisionError:
+    print("Divisor cannot be zero")
