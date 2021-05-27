@@ -10,3 +10,9 @@ In your CodingNomads folder create a new folder. Inside of that folder:
 7. Create a new virtual environment and install the packages from the requirements.txt file.
 
 '''
+
+'''
+
+I froze the packages and committed the doc to the GitHub repo.
+
+'''
